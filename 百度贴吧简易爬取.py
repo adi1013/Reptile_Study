@@ -42,4 +42,5 @@ def path_format(url,begin,end):
         print("准备写入第"+str(i)+"个页面")
         write_to_file(path,html)
 
-path_format("http://tieba.baidu.com/f?kw=lol&ie=utf-8&pn=",1,5)
+if __name__ == '__main__':
+    path_format("http://tieba.baidu.com/f?kw=lol&ie=utf-8&pn=",1,5)
