@@ -8,7 +8,7 @@ def openFile():
     return str
 
 def formatResult(str):
-    pattern=re.compile(r".*<tr(.*?)>(.*?)</tr>") #<tr.*><td.*>.*?</td></tr>
+    pattern=re.compile(r"<tr(.*?)>(.*?)</tr>") #<tr.*><td.*>.*?</td></tr>
     list=pattern.findall(str)
 
     return list
