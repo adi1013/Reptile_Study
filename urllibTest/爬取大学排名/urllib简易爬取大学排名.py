@@ -1,7 +1,7 @@
-import re
+﻿import re
 from urllib import request
 '''
-    内涵段子爬虫类
+   爬虫类
 '''
 class spider:
 
